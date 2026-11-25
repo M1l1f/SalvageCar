@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SalvageCar — Главная</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <a href="#"><img src="./image/logo.png" alt="SalvageCar"></a>  
+        </div>
+        <nav class="nav">
+            <a href="#" class="navigation active">Главная</a>
+            <a href="#auction" class="navigation">Аукцион</a>
+            <a href="#about" class="navigation">О нас</a>
+            <a href="./login.main" class="btn btn-login">Вход</a>
+            <a href="./register.main" class="btn btn-register">Регистрация</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-sc">SC</span>
+                    <span class="title-brand">SalvageCar</span>
+                </h1>
+                <hr class="hero-divider">
+                <p class="hero-description">
+                    Аукцион разбитых эксклюзивных авто.<br>
+                    Для тех кому требуются детали или авто на ремонт.
+                </p>
+                <a href="#auction" class="btn-hero">Подробности</a>
+            </div>
+        </section>
+
+        <section class="info-section">
+            <div class="container">
+                <div class="info-card-wrapper left-card">
+                    <div class="card-bg"></div>
+                    <div class="card-content">
+                        <p>Коротко об аукционе: все лоты — это авто с разной степенью повреждения, цена зависит от искажения машины, делаете ставку больше других — если ставка продержалась 5 секунды и более, забираете лот.</p>
+                    </div>
+                </div>
+
+                <div class="info-card-wrapper right-card">
+                    <div class="card-bg"></div>
+                    <div class="card-content">
+                        <p>Желаете зарегистрироваться на аукцион — нажимайте на кнопку ниже и ждите начало аукциона и торгуйтесь.</p>
+                        <a href="register.main" class="btn-card-register">Зарегистрироваться</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="auction" class="catalog-section">
+            <div class="container">
+                <h2 class="section-title">Популярные автомобили на аукционах в Казахстан</h2>
+                
+                <div class="cards-grid">
+                    <article class="car-card">
+                        <div class="card-image">
+                            <img src="./image/image40.png" alt="2014 BMW X5">
+                        </div>
+                        <div class="card-body">
+                            <h3>2014 BMW X5</h3>
+                            <p class="lot-info">Лот № 63884636West Milin, FAcp, 9 сен. 2026 г. - 19:00 GMT+5</p>
+                            <p class="current-bid">Текущая ставка <span>$1 650</span></p>
+                            <div class="card-actions">
+                                <button type="button" class="btn-buy">Купить $5000</button>
+                                <button type="button" class="btn-bid">Сделать ставку</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="car-card">
+                        <div class="card-image">
+                            <img src="./image/image42.png" alt="2017 BMW X5">
+                        </div>
+                        <div class="card-body">
+                            <h3>2017 BMW X5</h3>
+                            <p class="lot-info">Лот № 93608523Mocksville, NCcp, 9 сен. 2026 г. - 19:00 GMT+5</p>
+                            <p class="current-bid">Текущая ставка <span>$0</span></p>
+                            <div class="card-actions">
+                                <button type="button" class="btn-buy">Купить $5000</button>
+                                <button type="button" class="btn-bid">Сделать ставку</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="car-card">
+                        <div class="card-image">
+                            <img src="./image/image44.png" alt="2014 BMW X5">
+                        </div>
+                        <div class="card-body">
+                            <h3>2014 BMW X5</h3>
+                            <p class="lot-info">Лот № 63884636West Milin, FAcp, 9 сен. 2026 г. - 19:00 GMT+5</p>
+                            <p class="current-bid">Текущая ставка <span>$500</span></p>
+                            <div class="card-actions">
+                                <button type="button" class="btn-buy">Купить $5000</button>
+                                <button type="button" class="btn-bid">Сделать ставку</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="car-card">
+                        <div class="card-image">
+                            <img src="./image/image45.png" alt="2016 BMW X5">
+                        </div>
+                        <div class="card-body">
+                            <h3>2016 BMW X5</h3>
+                            <p class="lot-info">Лот № 63246446Windsor, Ncp, 9 сен. 2026 г. - 19:00 GMT+5</p>
+                            <p class="current-bid">Текущая ставка <span>$1 000</span></p>
+                            <div class="card-actions">
+                                <button type="button" class="btn-buy">Купить $5000</button>
+                                <button type="button" class="btn-bid">Сделать ставку</button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="view-all-wrapper">
+                    <button type="button" class="btn-view-all">Смотреть все</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="request-section">
+            <div class="container request-flex">
+                <div class="request-content">
+                    <h2>Получите полную разбивку стоимости Вашего автомобиля</h2>
+                    <p>Мы свяжемся с Вами и сообщим окончательную цену, включая таможенные сборы.</p>
+                    
+                    <form class="request-form">
+                        <div class="form-inputs">
+                            <input type="text" placeholder="Ваше имя" required class="input-name">
+                            <div class="phone-group">
+                                <span class="country-prefix">+7 ||</span>
+                                <input type="tel" placeholder="777 123 6767" required class="input-phone">
+                            </div>
+                        </div>
+                        <button type="submit" class="btn-request">Запросить</button>
+                    </form>
+                </div>
+                
+                <div class="request-image">
+                    <img src="./image/7d839e4f-e81c-42b0-882f-fba19b462db4_removalai_preview.png" alt="Blue Car">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2 class="about-title">О нас</h2>
+                <div class="about-text">
+                    <p>Мы проводим аукционы повреждённых эксклюзивных автомобилей.</p>
+                    <p>Наша главная цель — дать возможность приобрести мечту тем, кто не может позволить себе новое авто.</p>
+                    <p>На площадке собираются лоты с разной степенью повреждений: от лёгких до серьёзных.</p>
+                    <p>Вы можете выбрать машину, сделать ставку и выиграть уникальный автомобиль.</p>
+                    <p>После покупки вы самостоятельно восстанавливаете её под свои задачи и вкус.</p>
+                    <p>Мы делаем торги прозрачными и честными, чтобы каждый участник чувствовал себя уверенно.</p>
+                    <p><strong>SalvageCar</strong> — это место, где повреждённые, но статусные машины получают второй шанс, а вы — возможность купить то, о чём давно мечтали.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-flex">
+            <a href="tel:+77014886767" class="contact-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                <span>+7 701 488 6767</span>
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener" class="contact-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                <span>@SalvageCar</span>
+            </a>
+            <a href="https://t.me" target="_blank" rel="noopener" class="contact-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                <span>@SalvageCar</span>
+            </a>
+        </div>
+    </footer>
+
+</body>
+</html>
